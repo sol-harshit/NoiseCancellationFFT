@@ -1,0 +1,9 @@
+[package]
+name = "noisecancellation"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rustfft = "6.2.0"
+hound = "3.4.0"  # For encoding to WAV files
+symphonia = { version = "0.5", features = ["mp3"] }  # Adding MP3 feature

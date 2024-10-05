@@ -1,0 +1,1 @@
+// lib.rs remains empty for now as we're importing modules directly in main.rs

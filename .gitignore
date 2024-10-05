@@ -1,0 +1,19 @@
+# Rust specific ignores
+target/
+**/*.rs.bk
+
+# Cargo specific ignores
+Cargo.lock
+Cargo.toml.orig
+
+# Exclude MP3 and WAV files
+*.mp3
+*.wav
+
+# Other common ignores
+.DS_Store
+*.log
+*.tmp
+*.swp
+.idea/
+.vscode/
